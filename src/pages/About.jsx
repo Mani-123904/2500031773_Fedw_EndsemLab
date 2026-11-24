@@ -1,0 +1,5 @@
+import React from "react";
+import { Heart, Sparkles, Users } from "lucide-react";
+export default function About() {
+  return <section className="inner-page about-page"><span className="eyebrow">OUR STORY</span><h1>Shopping should feel simple.</h1><p className="page-intro">ShopNest is a friendly place to discover useful, stylish products without the fuss.</p><div className="about-panel"><div><h2>A little more joy in the everyday.</h2><p>We believe the best finds are the ones that fit naturally into your life. That's why our store brings together practical essentials, fresh styles and thoughtful accessories in one easy-to-browse space.</p><p>This college project demonstrates a modern storefront built with reusable React components and client-side routing.</p></div><div className="about-points"><div><Sparkles /><b>Curated finds</b><small>Simple picks for daily living.</small></div><div><Heart /><b>Made for you</b><small>A friendly, easy shopping experience.</small></div><div><Users /><b>Customer first</b><small>Helpful service at every step.</small></div></div></div></section>;
+}
